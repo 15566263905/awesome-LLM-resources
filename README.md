@@ -21,6 +21,7 @@
 - [推荐 Suggestion](#推荐-Suggestion)
 - [数据 Data](#数据-Data)
 - [微调 Fine-Tuning](#微调-Fine-Tuning)
+- [Agentic RL](#Agentic-RL)
 - [推理 Inference](#推理-Inference)
 - [评估 Evaluation](#评估-Evaluation)
 - [体验 Usage](#体验-Usage)
@@ -50,19 +51,19 @@
 
 ## 推荐 Suggestion
 
-#### Coding
+#### Podcast
 
-- GLM-4.7
-- Gemini-3-Pro
-- Kimi-K2
-- MiniMax-M2.1
-- Claude-4.5
-
-#### Tool Use
-
-- Doubao-Seed-1.8
-- GLM-4.7
-- Microthinker-1.5
+- [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)
+- [MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [129. 全球大模型第一股的上市访谈，和智谱CEO张鹏聊：敢问路在何方？](https://www.youtube.com/watch?v=9zSMTUUEfmU&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=2)
+- [128. Manus决定出售前最后的访谈：啊，这奇幻的2025年漂流啊…](https://www.youtube.com/watch?v=MW-ezf2RhVg&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=3)
+- [122. 朱啸虎现实主义故事的第三次连载：人工智能的盛筵与泡泡](https://www.youtube.com/watch?v=wK0-m3rKgZ0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=9)
+- [119. Kimi Linear、Minimax M2？和杨松琳考古算法变种史，并预演未来架构改进方案](https://www.youtube.com/watch?v=858HR43pegk&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=12&t=1070s)
+- [118. 对李想的第二次3小时访谈：CEO大模型、MoE、梁文锋、VLA、能量、记忆、对抗人性、亲密关系、人类的智慧](https://www.youtube.com/watch?v=RxXVq7-sJzM&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=13)
+- [115. 对OpenAI姚顺雨3小时访谈：6年Agent研究、人与系统、吞噬的边界、既单极又多元的世界](https://www.youtube.com/watch?v=gQgKkUsx5q0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=16)
+- [113. 和杨植麟时隔1年的对话：K2、Agentic LLM、缸中之脑和“站在无限的开端”](https://www.youtube.com/watch?v=ouG6jrkECrc&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=18)
 
 ## 数据 Data
 
@@ -116,6 +117,9 @@
 43. [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL)
 44. [Chandra](https://github.com/datalab-to/chandra): a highly accurate OCR model that converts images and PDFs into structured HTML/Markdown/JSON while preserving layout information.
 45. [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR): a leading end-to-end OCR expert VLM powered by Hunyuan's native multimodal architecture.
+46. [DeepSeek-OCR-2](https://huggingface.co/deepseek-ai/DeepSeek-OCR-2): Visual Causal Flow.
+47. [PaddleOCR-VL-1.5](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5): Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing.
+48. [GLM-OCR](https://huggingface.co/zai-org/GLM-OCR): a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -172,6 +176,18 @@
 48. [dLLM](https://github.com/ZHZisZZ/dllm): a library that unifies the training and evaluation of diffusion language models, bringing transparency and reproducibility to the entire development pipeline. `diffusion`
 49. [Miles](https://github.com/radixark/miles): an enterprise-facing reinforcement learning framework for large-scale MoE post-training and production workloads.
 50. [Skills](https://github.com/NVIDIA-NeMo/Skills): a collection of pipelines to improve "skills" of large language models (LLMs).
+51. [Twinkle](https://github.com/modelscope/twinkle): a lightweight, client-server training framework engineered with modular, high-cohesion interfaces.
+
+<div align="right">
+    <b><a href="#Contents">↥ back to top</a></b>
+</div>
+
+## Agentic RL
+
+- veRL: https://github.com/volcengine/verl
+- AReaL: https://github.com/inclusionAI/AReaL
+- slime: https://github.com/THUDM/slime
+- Agent Lightning: https://github.com/microsoft/agent-lightning
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -380,6 +396,8 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 46. [Astron Agent](https://github.com/iflytek/astron-agent): Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
 47. [Youtu-Agent](https://github.com/TencentCloudADP/youtu-agent): A simple yet powerful agent framework that delivers with open-source models.
 48. [MiroThinker](https://github.com/MiroMindAI/MiroThinker): an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.
+49. [Nexent](https://github.com/ModelEngine-Group/nexent): A zero-code platform for auto-generating agents — no orchestration, no complex drag-and-drop required, using pure language to develop any agent you want.
+50. [Yunjue-Agent](https://github.com/YunjueTech/Yunjue-Agent): A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks.
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -393,11 +411,13 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - Chat Overleaf: https://github.com/anuin-cat/chat-overleaf
 - 文智云助手: https://overleaf.top/
 - LiteWrite: https://litewrite.ai/
+- Prism: https://openai.com/zh-Hans-CN/prism/
 
 #### 审稿
 
 - PaperReview: https://paperreview.ai/
 - aiXiv: https://aixiv.science/
+- OpenJudge Review: https://openjudge.me/paper_review
 
 #### 其他
 
@@ -408,6 +428,9 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - EvoPresent: https://github.com/eric-ai-lab/EvoPresent
 - Paper2All: https://github.com/YuhangChen1/Paper2All
 - AutoPage: https://github.com/AutoLab-SAI-SJTU/AutoPage
+- pdf2video: https://github.com/DangJin/pdf2video
+- Idea2Paper: https://github.com/AgentAlphaAGI/Idea2Paper
+- PaperX: https://github.com/yutao1024/PaperX
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -472,6 +495,8 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 19. [MoGA](https://arxiv.org/pdf/2510.18692) `长视频`
 20. [LongCat-Video](https://huggingface.co/meituan-longcat/LongCat-Video)
 21. [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
+22. [LTX-2](https://huggingface.co/Lightricks/LTX-2)
+    - [Training](https://github.com/Lightricks/LTX-2/blob/main/packages/ltx-trainer/README.md)
 
 #### 编辑
 
@@ -518,7 +543,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
   - https://huggingface.co/inclusionAI/TwinFlow
 - Qwen-Image：https://huggingface.co/Qwen/Qwen-Image
 - Qwen-Image-2512：https://huggingface.co/Qwen/Qwen-Image-2512
-- GLM-Image: https://huggingface.co/zai-org/GLM-Image
+- Z-Image：https://huggingface.co/Tongyi-MAI/Z-Image
 
 #### 编辑
 
@@ -532,6 +557,13 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - Qwen-Image-Edit-2511: https://huggingface.co/Qwen/Qwen-Image-Edit-2511
   - Qwen-Image-Edit-2511-Upscale2K: https://huggingface.co/valiantcat/Qwen-Image-Edit-2511-Upscale2K
   - Qwen-Image-Edit-2511-Multiple-Angles-LoRA: https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA
+- FireRed-Image-Edit: https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0
+
+#### 统一
+
+- GLM-Image: https://huggingface.co/zai-org/GLM-Image
+- https://huggingface.co/black-forest-labs/FLUX.2-klein-4B
+  - https://huggingface.co/black-forest-labs/FLUX.2-klein-9B
 
 #### 训练
 
@@ -602,6 +634,8 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 26. VibeVoice: https://huggingface.co/collections/microsoft/vibevoice
 27. GLM-TTS: https://github.com/zai-org/GLM-TTS
 28. Fun-CosyVoice3: https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+29. Qwen3-TTS:https://huggingface.co/collections/Qwen/qwen3-tts
+30. Ming-Omni-TTS: https://github.com/inclusionAI/Ming-omni-tts
 
 #### STT/ASR
 
@@ -613,10 +647,13 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 6. SoulX-Podcast: https://huggingface.co/collections/Soul-AILab/soulx-podcast
 7. Omnilingual ASR: https://github.com/facebookresearch/omnilingual-asr
 8. Fun-ASR: https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512
+9. VibeVoice-ASR: https://huggingface.co/microsoft/VibeVoice-ASR
+10. Qwen3-ASR: https://github.com/QwenLM/Qwen3-ASR
 
 #### Voice Interaction
 
-1. https://huggingface.co/FunAudioLLM/Fun-Audio-Chat-8B
+1. Fun-Audio-Chat: https://huggingface.co/FunAudioLLM/Fun-Audio-Chat-8B
+2. Chroma 1.0: https://huggingface.co/FlashLabs/Chroma-4B
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -694,6 +731,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - EMMA: https://arxiv.org/abs/2512.04810
 - OpenOmni: https://github.com/RainBowLuoCS/OpenOmni
 - Ming-Flash-Omni: https://arxiv.org/abs/2510.24821
+- STAR: https://github.com/mm-mvr/star
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -722,6 +760,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 19. [Textbook on reinforcement learning from human feedback](https://github.com/natolambert/rlhf-book)
 20. [《大模型算法：强化学习、微调与对齐》](https://book.douban.com/subject/37331056/)
 21. [《The Smol Training Playbook: The Secrets to Building World-Class LLMs》](https://github.com/WangRongsheng/awesome-LLM-resources/blob/main/books/the-smol-training-playbook-the-secrets-to-building-world-class-llms.pdf)
+22. [《从零开始构建智能体》——从零开始的智能体原理与实践教程](https://github.com/datawhalechina/hello-agents)
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
@@ -897,8 +936,8 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 54. [KAT-V1: Kwai-AutoThink Technical Report](https://arxiv.org/abs/2507.08297v3)
 55. [Step3](https://github.com/stepfun-ai/Step3)
 56. [SAIL-VL2 Technical Report](https://arxiv.org/abs/2509.14033)
-57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) `[85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M)` `[22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)`
-58. [Olmo3](https://www.datocms-assets.com/64837/1763646865-olmo_3_technical_report-1.pdf): Charting a path through the model flow to lead open-source AI. `[Website](https://allenai.org/blog/olmo3)`
+57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)
+58. [Olmo3](https://www.datocms-assets.com/64837/1763646865-olmo_3_technical_report-1.pdf): Charting a path through the model flow to lead open-source AI. [Website](https://allenai.org/blog/olmo3)
 59. [OpenMMReasoner](https://arxiv.org/abs/2511.16334)
 60. [Qwen3-VL Technical Report](https://arxiv.org/pdf/2511.21631)
 
@@ -951,6 +990,18 @@ MCP工具聚合：
 1. [Agent Skills (Claude Skills) 详细攻略，一期视频精通](https://www.bilibili.com/video/BV1HuiyBQE9G)
 2. [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 3. [Anthropics Skills](https://github.com/anthropics/skills)
+4. [Skillsmp](https://skillsmp.com/)
+5. [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills)
+6. [ClawHub](https://clawhub.ai/)
+7. [水产市场](https://openclawmp.cc/)
+8. [Skills.Sh](https://skills.sh/)
+9. [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+10. [llmbase](https://llmbase.ai/openclaw/)
+11. [OpenClaw](https://docs.openclaw.ai/zh-CN)
+12. [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+13. [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
+14. [LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/LLMs-Universal-Life-Science-and-Clinical-Skills-)
+15. [SkillHub](https://skillhub.tencent.com/#categories)
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
